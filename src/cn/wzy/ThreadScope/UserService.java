@@ -6,4 +6,7 @@ package cn.wzy.ThreadScope;
  * 不短不长八字刚好
  */
 public class UserService extends Thread {
+    public static void main(String[] args) {
+        System.out.println("hello world");
+    }
 }
