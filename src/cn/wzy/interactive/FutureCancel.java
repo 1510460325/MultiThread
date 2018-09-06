@@ -13,7 +13,6 @@ public class FutureCancel {
 			@Override
 			public Integer call() throws Exception {
 				System.out.println("=======start run==========");
-				Thread.sleep(5000);
 				return 15;
 			}
 		});
